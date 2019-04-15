@@ -1,0 +1,20 @@
+<body style = "background-color:LightCyan;">
+
+<h2 align="center"> Registration </h2>
+
+
+<div>
+    <i>
+    <form method="POST">
+        {% csrf_token %}
+
+        {{form.as_p}}
+
+        <button type = "Submit" > Proceed </button>
+
+
+
+    </form>
+        <i>
+
+</div>

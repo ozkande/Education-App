@@ -1,0 +1,19 @@
+
+<body style = "background-color:#95A5A6;">
+<h2 align="center"> Do you have any questions? </h2>
+<p align="center"> <i> If you have any questions regarding registration process, please send us a message  </i> </p>
+<center><div>
+    <i>
+    <form method="post">
+        {% csrf_token %}
+
+        {{form.as_p}}
+
+        <button type = "Submit" > Send your message </button>
+
+
+
+    </form>
+        <i>
+
+</div> </center>

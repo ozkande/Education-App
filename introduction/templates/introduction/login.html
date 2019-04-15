@@ -1,0 +1,20 @@
+<body style = "background-color:LightCyan;">
+
+<h2 align="center"> Log in </h2>
+
+
+<div>
+    <i>
+    <form method="POST">
+        {% csrf_token %}
+
+        {{form.as_p}}
+
+        <button type = "Log in" > Proceed </button>
+
+
+
+    </form>
+        <i>
+
+</div>
