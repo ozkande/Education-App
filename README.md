@@ -3,7 +3,7 @@ An online education website
 
 Hi all!
 
-This is the first version of the online education system.
+This is the first version of the online education website.
 
 Technologies used:
 
