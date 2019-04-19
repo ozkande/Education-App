@@ -1,0 +1,23 @@
+<body style = "background-color:LightCyan;">
+<h2 align="center"> Question  {{question.id}} </h2> <br> <br>
+
+<b>{{question.question_heading}} </b> <br> <br>
+
+{{question.question_text}} <br> <br>
+
+{% if error_message %}
+<p> {{error_message}}</p>
+{% endif %}
+
+<form action = "{% url 'quiz:result' question_id%}" method="post">
+    {% csrf_token %}
+    {% for answer in question.answer_set.all %}
+    <input type = "radio" id = "answer{{forloop.counter}}" name= "answer" value="{{answer.id}}" >
+    <label for="answer{{ forloop.counter}}"> </label>
+    {{answer.answer_text}}
+{% endfor %}
+    <input type = "submit", value = "Submit">
+
+</form>
+
+<a href = "{% url 'quiz:index' %}" > Go back to the start </a>

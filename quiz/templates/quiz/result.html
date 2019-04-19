@@ -1,0 +1,27 @@
+<body style = "background-color:LightCyan;">
+<h2 align="center"> Answer  {{question_id}} </h2> <br> <br>
+
+<b>{{your_answer}} </b> <br> <br>
+
+{%  if selected_answer.right_answer == False %}
+Correct Answer : {{correct_answer}} </b> <br> <br>
+{% endif %}
+
+<b>{{question.question_heading}} </b> <br> <br>
+
+{{question.question_text}} <br> <br>
+
+Your answer : {{selected_answer}} <br> <br>
+
+{% if next_one <= 2 %}
+<a href = "{% url 'quiz:page' next_one  %}" > Next Question </a> <br> <br>
+{% endif %}
+
+<a href = "{% url 'quiz:index' %}" > Go back to the start </a>
+
+
+
+
+
+
+

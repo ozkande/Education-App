@@ -1,6 +1,8 @@
 from django.urls import path
 from . import views
 
+app_name = "introduction"
+
 urlpatterns = [
     path('', views.home, name = 'introduction-home'),
     path('tableofcontents', views.tableofcontents, name = 'table-of-contents'),

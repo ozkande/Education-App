@@ -1,0 +1,16 @@
+<body style = "background-color:LightCyan;">
+
+<h2 align="center"> Quiz </h2> <br> <br>
+<h2> Hello {{request.user.first_name}},  </h2> <br>
+
+<p style="font-style: normal; font-size:12px; "> Test your skills and knowledge! <br>  <br> Completing this quiz will help you to assess your level.
+<br> <br> There is no time limit to answer the questions. </p>
+
+{% for question in all_questions %}
+
+
+{{question.question_heading}}
+
+{% endfor %}
+
+<a href = "{% url 'quiz:page' 1 %}" > Start to the Quiz </a>
