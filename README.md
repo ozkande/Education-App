@@ -1,7 +1,7 @@
 # Education-App
 An online education website
 
-Hi all!
+Hello all!
 
 This is the first version of the online education website.
 
