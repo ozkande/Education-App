@@ -1,5 +1,5 @@
 <body style = "background-color:LightCyan;">
-<h2 align="center"> Answer  {{question_id}} </h2> <br> <br>
+<h2 align="center"> Answer  {{answer_number }} </h2> <br> <br>
 
 <b>{{your_answer}} </b> <br> <br>
 
@@ -13,7 +13,7 @@ Correct Answer : {{correct_answer}} </b> <br> <br>
 
 Your answer : {{selected_answer}} <br> <br>
 
-{% if next_one <= 2 %}
+{% if answer_number < 2 %}
 <a href = "{% url 'quiz:page' next_one  %}" > Next Question </a> <br> <br>
 {% endif %}
 
