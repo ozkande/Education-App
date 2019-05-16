@@ -13,6 +13,7 @@
       <change afterPath="$PROJECT_DIR$/introduction/templates/introduction/kubernetes.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/introduction/templates/introduction/scrum.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/introduction/templates/introduction/tableofcontents.html" beforeDir="false" afterPath="$PROJECT_DIR$/introduction/templates/introduction/tableofcontents.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/introduction/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/introduction/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/introduction/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/introduction/views.py" afterDir="false" />
@@ -29,10 +30,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/quiz/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
+            <state relative-caret-position="375">
               <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
@@ -50,11 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/quiz/templates/quiz/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="18" column="62" lean-forward="true" selection-start-line="18" selection-end-line="18" selection-end-column="75" />
+            <state relative-caret-position="345">
+              <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#body#0;n#!!top" expanded="true" />
@@ -280,12 +281,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="85" y="27" width="1228" height="619" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.17866005" side_tool="true" visible="true" weight="0.25803724" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.82133996" visible="true" weight="0.25803724" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.82133996" visible="true" weight="0.25803724" />
       <window_info id="Structure" order="2" sideWeight="0.5062035" side_tool="true" weight="0.25803724" />
-      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49661592" visible="true" weight="0.17755102" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" sideWeight="0.49661592" visible="true" weight="0.17755102" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5033841" side_tool="true" weight="0.17886178" />
       <window_info anchor="bottom" id="Python Console" order="2" weight="0.32857144" />
       <window_info anchor="bottom" id="Message" order="3" />
@@ -622,12 +622,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/quiz/views.py">
+    <entry file="file://$PROJECT_DIR$/quiz/templates/quiz/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+        <state relative-caret-position="345">
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#body#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -639,13 +640,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/quiz/templates/quiz/index.html">
+    <entry file="file://$PROJECT_DIR$/quiz/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="18" column="62" lean-forward="true" selection-start-line="18" selection-end-line="18" selection-end-column="75" />
+        <state relative-caret-position="375">
+          <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
           <folding>
-            <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
