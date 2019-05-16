@@ -84,8 +84,40 @@ def login_func(request):
         return render(request, 'introduction/login.html', {'form':form})
 
 
+def functions(request):
+    return render(request, 'introduction/functions.html')
 
 
+
+def exceptions(request):
+    return render(request, 'introduction/exceptions.html')
+
+
+
+def decisionmaking(request):
+    return render(request, 'introduction/decisionmaking.html')
+
+def agile(request):
+    return render(request, 'introduction/agile.html')
+
+def scrum(request):
+    return render(request, 'introduction/scrum.html')
+
+def kanban(request):
+    return render(request, 'introduction/kanban.html')
+
+def docker(request):
+    return render(request, 'introduction/docker.html')
+
+def gitcontrol(request):
+    return render(request, 'introduction/gitcontrol.html')
+
+def kubernetes(request):
+    return render(request, 'introduction/kubernetes.html')
+
+
+def cicd(request):
+    return render(request, 'introduction/cicd.html')
 
 
 

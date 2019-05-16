@@ -5,13 +5,31 @@
 <body style = "background-color:LightCyan;">
 <h2 align="center"> Table of Contents </h2>
 
+<center> <b> Python Programming </b></center>
 <center> <ol style="font-style: normal; font-size:16px;  ">
-    <li> Decision Making </li>
-    <li> Functions </li>
-    <li> Exceptions </li>
+    <li> <a href = "{% url 'introduction:decisionmaking' %}" > Decision Making </a>  </li>
+    <li>
+   <a href = "{% url 'introduction:function' %}" > Functions </a> </li>
+    <li> <a href = "{% url 'introduction:exceptions' %}" > Exceptions </a> </li>
+</ol> </center> </body>
+
+<center> <b> Project Management </b></center>
+<center> <ol style="font-style: normal; font-size:16px;  ">
+    <li> <a href = "{% url 'introduction:agile' %}" > Agile Methodologies </a>  </li>
+    <li>
+   <a href = "{% url 'introduction:scrum' %}" > Scrum </a> </li>
+    <li> <a href = "{% url 'introduction:kanban' %}" > Kanban </a> </li>
 </ol> </center> </body>
 
 
+<center> <b> DevOps Tools </b></center>
+<center> <ol style="font-style: normal; font-size:16px;  ">
+    <li> <a href = "{% url 'introduction:docker' %}" > Docker </a>  </li>
+    <li>
+   <a href = "{% url 'introduction:gitcontrol' %}" > Git Control </a> </li>
+    <li> <a href = "{% url 'introduction:cicd' %}" > CI/CD Processes </a> </li>
+        <li> <a href = "{% url 'introduction:kubernetes' %}" > Kubernetes </a> </li>
+</ol> </center> </body>
 
 
 <div style = "text-align: center; font-size:14px">

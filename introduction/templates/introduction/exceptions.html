@@ -1,0 +1,37 @@
+<body style = "background-color:LightCyan;">
+
+<h3 align="center"> Exceptions </h3>
+
+<p style="color:black; font-size:16px";> A Python program terminates
+    as soon as it encounters an error. In Python, an error can be a syntax
+    error or an exception. In this article, you will see what an exception
+    is and how it differs from a syntax error. After that, you will learn about
+    raising exceptions and making assertions. Then, you’ll finish with a demonstration
+    of the try and except block. </p>
+
+<center> <b>  <h4> Syntax </h4> </b>
+<p style = font-size:16px>  try:<br>
+   You do your operations here; <br>
+   ...................... <br>
+except ExceptionI: <br>
+   If there is ExceptionI, then execute this block. <br>
+except ExceptionII: <br>
+   If there is ExceptionII, then execute this block. <br>
+   ...................... <br>
+else: <br>
+   If there is no exception then execute this block. <br> <br>
+</p> </center>
+
+<h4> Here are few important points about the above-mentioned syntax  </h4>
+    <ul style="font-style: normal; font-size:16px; ">
+    <li> A single try statement can have multiple except statements.
+        This is useful when the try block contains statements that
+        may throw different types of exceptions. </li> <br>
+    <li> You can also provide a generic except clause, which handles
+        any exception.</li> <br>
+    <li> After the except clause(s), you can include an else-clause.
+        The code in the else-block executes if the code in the try:
+        block does not raise an exception.</li> <br>
+    <li> The else-block is a good place for code that does
+        not need the try: block's protection.</li> <br>
+</ul> <br>
