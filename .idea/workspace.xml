@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7778ef91-29ef-447e-a8b8-8df17cb5cde9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eduproject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/eduproject/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/introduction/templates/introduction/tableofcontents.html" beforeDir="false" afterPath="$PROJECT_DIR$/introduction/templates/introduction/tableofcontents.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/introduction/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/introduction/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quiz/templates/quiz/result.html" beforeDir="false" afterPath="$PROJECT_DIR$/quiz/templates/quiz/result.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/templates/quiz/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/quiz/templates/quiz/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/quiz/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/quiz/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/quiz/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="30" column="49" lean-forward="true" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
+            <state relative-caret-position="96">
+              <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -39,6 +38,19 @@
               <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/quiz/templates/quiz/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+              <folding>
+                <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#body#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -80,20 +92,6 @@
               <caret line="7" column="65" selection-start-line="7" selection-start-column="65" selection-end-line="7" selection-end-column="65" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/introduction/templates/introduction/scrum.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-              <folding>
-                <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ol#0;n#body#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -172,12 +170,12 @@
         <option value="$PROJECT_DIR$/introduction/templates/introduction/cicd.html" />
         <option value="$PROJECT_DIR$/introduction/templates/introduction/kubernetes.html" />
         <option value="$PROJECT_DIR$/introduction/templates/introduction/decisionmaking.html" />
-        <option value="$PROJECT_DIR$/quiz/templates/quiz/index.html" />
         <option value="$PROJECT_DIR$/introduction/urls.py" />
         <option value="$PROJECT_DIR$/eduproject/urls.py" />
         <option value="$PROJECT_DIR$/introduction/templates/introduction/tableofcontents.html" />
         <option value="$PROJECT_DIR$/quiz/templates/quiz/result.html" />
         <option value="$PROJECT_DIR$/quiz/views.py" />
+        <option value="$PROJECT_DIR$/quiz/templates/quiz/index.html" />
       </list>
     </option>
   </component>
@@ -199,29 +197,6 @@
             <path>
               <item name="Education-App" type="b2602c69:ProjectViewProjectNode" />
               <item name="Education-App" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Education-App" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Education-App" type="462c0819:PsiDirectoryNode" />
-              <item name="eduproject" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Education-App" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Education-App" type="462c0819:PsiDirectoryNode" />
-              <item name="introduction" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Education-App" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Education-App" type="462c0819:PsiDirectoryNode" />
-              <item name="introduction" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Education-App" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Education-App" type="462c0819:PsiDirectoryNode" />
-              <item name="introduction" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="introduction" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Education-App" type="b2602c69:ProjectViewProjectNode" />
@@ -294,15 +269,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="85" y="27" width="1228" height="619" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.17866005" side_tool="true" weight="0.25803724" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.82133996" visible="true" weight="0.26226735" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.82133996" visible="true" weight="0.26226735" />
       <window_info id="Structure" order="2" sideWeight="0.5062035" side_tool="true" weight="0.25803724" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="0" sideWeight="0.49661592" visible="true" weight="0.17755102" />
+      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49661592" visible="true" weight="0.36938775" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5033841" side_tool="true" weight="0.17886178" />
       <window_info anchor="bottom" id="Python Console" order="2" weight="0.32857144" />
       <window_info anchor="bottom" id="Message" order="3" />
-      <window_info anchor="bottom" id="Find" order="4" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.32857144" />
       <window_info anchor="bottom" id="Version Control" order="5" />
       <window_info anchor="bottom" id="Run" order="6" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
@@ -514,17 +490,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/quiz/templates/quiz/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#body#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/introduction/templates/introduction/docker.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -640,12 +605,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/quiz/templates/quiz/result.html">
+    <entry file="file://$PROJECT_DIR$/quiz/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        <state relative-caret-position="96">
+          <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
           <folding>
-            <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -660,12 +625,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/quiz/views.py">
+    <entry file="file://$PROJECT_DIR$/quiz/templates/quiz/result.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="30" column="49" lean-forward="true" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
+        <state relative-caret-position="106">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quiz/templates/quiz/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#body#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

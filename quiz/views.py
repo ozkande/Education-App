@@ -22,8 +22,8 @@ def page(request, number):
     try:
         question = Question.objects.get(pk=number)
         question_number = number
-        while question_number > 6:
-            question_number = question_number - 6
+        while question_number >=  6:
+            question_number = question_number - 5
 
     except Question.DoesNotExist:
         raise Http404("Question does not exist")
@@ -35,8 +35,8 @@ def result(request, question_id):
    # question = get_object_or_404(Question, pk=question_id),
    question = Question.objects.get(pk=question_id)
    answer_number = question_id
-   while answer_number > 6:
-       answer_number = answer_number -6
+   while answer_number >= 6:
+       answer_number = answer_number -5
 
    next_one = question_id + 1
 
