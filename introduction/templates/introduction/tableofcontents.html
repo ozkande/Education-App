@@ -1,35 +1,54 @@
-{% load static %} <center><img src="{% static "introduction/images/programming.jpeg" %} " alt = "Programming"  height = "200" width = "900"> </center>
-<h2> Hello {{request.user.username}}  </h2>
 
+{% load static %} <center><img src="{% static "introduction/images/programming.jpeg" %} " alt = "Programming"  height = "200" width = "900"> </center>
+
+<center> <h2> Hello {{request.user.username}}  </h2> </center>
+<center> <h3> Registration and Login  </h3> </center>
+<center> <a href = "{% url 'introduction:registration' %}" > Register </a> </center>
+<br>
+<center> <a href = "{% url 'introduction:contactus' %}" > Login </a> </center>
+<br>
+
+<h3 align="center">Any queries, comments or suggestions?   </h3>
+<center> <a href = "{% url 'introduction:contactus' %}" > Send us a  message! </a> </center>
 
 <body style = "background-color:LightCyan;">
 <h2 align="center"> Table of Contents </h2>
 
 <center> <b> Python Programming </b></center>
 <center> <ol style="font-style: normal; font-size:16px;  ">
-    <li> <a href = "{% url 'introduction:decisionmaking' %}" > Decision Making </a>  </li>
-    <li>
-   <a href = "{% url 'introduction:function' %}" > Functions </a> </li>
-    <li> <a href = "{% url 'introduction:exceptions' %}" > Exceptions </a> </li>
+       <li> <a href = "{% url 'introduction:introduction-home' %}" > Introduction to Python </a>  </li>
+   <li> <a href = "{% url 'introduction:decisionmaking' %}" > Decision Making </a>  </li>
+   <li>
+  <a href = "{% url 'introduction:function' %}" > Functions </a> </li>
+   <li> <a href = "{% url 'introduction:exceptions' %}" > Exceptions </a> </li>
+   <li> <a href = "{% url 'quiz:page' 1 %}" > Python Quiz </a> </li>
 </ol> </center> </body>
 
 <center> <b> Project Management </b></center>
 <center> <ol style="font-style: normal; font-size:16px;  ">
-    <li> <a href = "{% url 'introduction:agile' %}" > Agile Methodologies </a>  </li>
-    <li>
-   <a href = "{% url 'introduction:scrum' %}" > Scrum </a> </li>
-    <li> <a href = "{% url 'introduction:kanban' %}" > Kanban </a> </li>
+   <li> <a href = "{% url 'introduction:agile' %}" > Agile Methodologies </a>  </li>
+   <li>
+  <a href = "{% url 'introduction:scrum' %}" > Scrum </a> </li>
+   <li> <a href = "{% url 'introduction:kanban' %}" > Kanban </a> </li>
+       <li> <a href = "{% url 'quiz:page' 4 %}" > Project Management Quiz </a> </li>
 </ol> </center> </body>
 
 
 <center> <b> DevOps Tools </b></center>
 <center> <ol style="font-style: normal; font-size:16px;  ">
-    <li> <a href = "{% url 'introduction:docker' %}" > Docker </a>  </li>
-    <li>
-   <a href = "{% url 'introduction:gitcontrol' %}" > Git Control </a> </li>
-    <li> <a href = "{% url 'introduction:cicd' %}" > CI/CD Processes </a> </li>
-        <li> <a href = "{% url 'introduction:kubernetes' %}" > Kubernetes </a> </li>
+   <li> <a href = "{% url 'introduction:docker' %}" > Docker </a>  </li>
+   <li>
+  <a href = "{% url 'introduction:gitcontrol' %}" > Git Control </a> </li>
+   <li> <a href = "{% url 'introduction:cicd' %}" > CI/CD Processes </a> </li>
+       <li> <a href = "{% url 'introduction:kubernetes' %}" > Kubernetes </a> </li>
+           <li> <a href = "{% url 'quiz:page' 5 %}" > DevOps Quiz </a> </li>
 </ol> </center> </body>
+
+
+<div style = "text-align: center; font-size:14px">
+   <p> <a href = "https://www.youtube.com"> Subscribe to our Youtube channel </a> </p>
+   <p> <a href = "https://www.twitter.com"> Follow us in Twitter  </a> </p>
+</div>
 
 
 <div style = "text-align: center; font-size:14px">

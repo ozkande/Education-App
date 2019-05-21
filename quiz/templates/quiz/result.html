@@ -13,7 +13,7 @@ Correct Answer : {{correct_answer}} </b> <br> <br>
 
 Your answer : {{selected_answer}} <br> <br>
 
-{% if answer_number < 2 %}
+{% if answer_number < 5 %}
 <a href = "{% url 'quiz:page' next_one  %}" > Next Question </a> <br> <br>
 {% endif %}
 
